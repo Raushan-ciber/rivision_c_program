@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+ int main()
+{
+    printf("please enter a ASCII latte\n");
+    char a;
+    scanf("%c",&a);
+    int b;
+    b=a;
+    printf("ASCII VALUE OF GIVEN LATTER IS %d",b);
+}
+    
