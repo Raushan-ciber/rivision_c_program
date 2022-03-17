@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+//positive or negative 
+int main()
+{
+    printf("enter a number\n");
+    int a;
+    scanf("%d",&a);
+    if(a>0){
+        printf("positive");
+      
+    }
+    else {
+        if(a<0){
+            printf("negative");
+        
+        }
+        else{
+            printf("nor positive nor negative");
+        }
+    }
+}
