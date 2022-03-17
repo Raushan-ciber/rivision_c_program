@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int  sum,n,i;
+    printf("please enter no of subjects\n");
+    scanf("%d",&n);
+    int marks[n];
+    for(int i=0;i<n;i++){
+        printf("please enter marks\n");
+        scanf("%d",&marks[i]);
+        
+    }
+    for(i=0;i<n;i++){
+        sum+= marks[i];
+    }
+    printf("Total percent you got is %d",sum/n);
+    
+    return 0;
+}
