@@ -1,0 +1,22 @@
+#include <stdio.h>
+//simple intrest
+int main()
+{
+  int A,T,R,SI;
+  printf("enter the amount");
+  scanf("%d",&A);
+  printf("enter time");
+  scanf("%d",&T);
+  printf("enter rate of intrest");
+  
+  scanf("%d",&R);
+  SI=(A*T*R)/100;
+  printf("your total intrest is %d and total amount you have to pay is %d",SI,A+SI);
+    
+
+
+return 0;
+    
+
+    
+  
