@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+//cheak_vowel
+int main()
+{
+    char c;                                             //declearing datatype
+    printf("enter the charecter you want to cheak\n");
+    scanf("%c",&c);
+    if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')           //condition_for_vowel
+    {
+        printf("it's a vowel");
+    }
+    else{
+        printf("it's not vowel");
+    }
+    
+    return 0;
+}
