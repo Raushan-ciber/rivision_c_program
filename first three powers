@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+//first three powers on a natural no
+int main()
+{
+    printf("enter a number\n");
+    int a;
+    scanf("%d",&a);
+    printf("number is %d\nsquare is %d\nand cube is %d",a,a*a,a*a*a);
+    return 0;
+}
