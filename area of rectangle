@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+
+// area of rectangle
+int main()
+{
+    int len,bre;
+    printf("Enter lenth of the rectangle\n");
+    scanf("%d",&len);
+    printf("Enter bredth of the rectangle\n");
+    scanf("%d",&bre);\
+    printf("Area of rectangle is %d",len*bre);
+    return 0;
+}
